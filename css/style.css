@@ -1,0 +1,75 @@
+#coloane{	
+    display:inline-block;
+    float:right;	
+}
+#tabele{
+    vertical-align:top;
+    position:relative;
+    display:inline-block;
+    margin-right:10px;
+    width:148px;
+}
+#table{
+    width:148px;
+}
+#col2{
+    width:148px;
+}
+#queryTab{
+    position:relative;
+    overflow-x:scroll;
+    overflow-y:scroll; 
+    display:inline-block;
+}
+#tab{
+    position:relative;
+    display:inline-block;
+}
+table{
+    position:relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 1000px;
+    height:500px;
+    border: 1px solid black;
+}
+
+th, td,tr{
+    border: 1px solid black;
+    width: 100px;
+    height:80px;
+}
+#dbs1{
+    text-align:center;
+    display: block;
+    color:black;
+    margin: 0 auto;
+    position: relative;
+}
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+#loading-image {
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    z-index: 100;
+}
+.querytxt{
+    text-align:center;
+    color:black;
+}
+.error {
+    text-align:center;
+    color:black;
+    border: solid 2px #FF0000;  
+}
