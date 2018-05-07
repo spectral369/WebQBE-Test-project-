@@ -56,7 +56,7 @@ class DB {
         $passw = $password;
         $servername = $servern;
         $serverport = $serverp;
-        $fname = $username;
+        
     }
 
     //now lets create our method for connecting to the database
@@ -77,6 +77,8 @@ class DB {
 
         if (!isset($_SESSION['fname'])) {
             $_SESSION['fname'] = substr(str_shuffle(str_repeat("0123456789abcdefghijklmnopqrstuvwxyz", 5)), 0, 5);
+             $fname = $_SESSION['fname'];
+            
         } else {
             $fname = $_SESSION['fname'];
         }

@@ -20,5 +20,5 @@
 
 define('ROOT_DIR', __DIR__);
 define('DB', __DIR__ . '/DB/');
-define('US', __DIR__ . '/us');
+define('US', __DIR__ . '/');
 ?>
